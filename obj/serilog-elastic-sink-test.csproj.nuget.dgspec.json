@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/fwl/dotnet/serilog-elastic-sink-test/serilog-elastic-sink-test.csproj": {}
+    "/home/fwl/dotnet/serilog-elasticsearch-sink-example/serilog-elastic-sink-test.csproj": {}
   },
   "projects": {
-    "/home/fwl/dotnet/serilog-elastic-sink-test/serilog-elastic-sink-test.csproj": {
+    "/home/fwl/dotnet/serilog-elasticsearch-sink-example/serilog-elastic-sink-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fwl/dotnet/serilog-elastic-sink-test/serilog-elastic-sink-test.csproj",
+        "projectUniqueName": "/home/fwl/dotnet/serilog-elasticsearch-sink-example/serilog-elastic-sink-test.csproj",
         "projectName": "serilog-elastic-sink-test",
-        "projectPath": "/home/fwl/dotnet/serilog-elastic-sink-test/serilog-elastic-sink-test.csproj",
+        "projectPath": "/home/fwl/dotnet/serilog-elasticsearch-sink-example/serilog-elastic-sink-test.csproj",
         "packagesPath": "/home/fwl/.nuget/packages/",
-        "outputPath": "/home/fwl/dotnet/serilog-elastic-sink-test/obj/",
+        "outputPath": "/home/fwl/dotnet/serilog-elasticsearch-sink-example/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fwl/.nuget/NuGet/NuGet.Config"
