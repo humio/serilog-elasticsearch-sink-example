@@ -15,7 +15,7 @@ namespace serilog_elastic_sink_test
                {
                    FailureCallback = e => Console.WriteLine("Unable to submit event " + e.MessageTemplate),
                    EmitEventFailure = EmitEventFailureHandling.RaiseCallback,
-                   ModifyConnectionSettings = x => x.BasicAuthentication(username: "", password: "88WS28JEuB0G2WC3cYufdgTINAxOGQvliBrqH5Vqutjb")  // password is ingest token from humio
+                   ModifyConnectionSettings = x => x.BasicAuthentication(userName: "", password: "88WS28JEuB0G2WC3cYufdgTINAxOGQvliBrqH5Vqutjb")  // password is ingest token from humio
                });
 
             var logger = loggerConfig.CreateLogger();
